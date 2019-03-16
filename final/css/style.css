@@ -1,0 +1,125 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  width:100%;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    font-family: 'Yantramanav', sans-serif;
+}
+
+.canvas {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.canvas > * {
+  color: white;
+}
+
+.skills {
+  list-style-type: none;
+  display: flex;
+}
+
+.skills a {
+  text-decoration: none;
+  color: white;
+}
+
+.skills a:hover {
+  text-decoration: underline dotted;
+}
+
+.about > * {
+  display: inline-block;
+}
+
+footer {
+  text-align: center;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Teko:700");
+body, html {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+.teko-font-family, .text-item {
+  font-family: 'Teko', sans-serif;
+}
+
+#textAnimated {
+  display: none;
+}
+
+#app {
+  font-size: 10rem;
+  -webkit-animation: elastic 1s ease-in-out infinite;
+          animation: elastic 1s ease-in-out infinite;
+  cursor: default;
+}
+
+.text-item {
+  display: inline-flex;
+  mix-blend-mode: multiply;
+}
+.text-item > div:hover {
+  -webkit-transform: scale(2) !important;
+          transform: scale(2) !important;
+  transition: -webkit-transform .2s ease-in-out;
+  transition: transform .2s ease-in-out;
+  transition: transform .2s ease-in-out, -webkit-transform .2s ease-in-out;
+}
+
+.red {
+  color: #BD0419;
+}
+
+.yellow {
+  color: #D28910;
+}
+
+.green {
+  color: #018671;
+}
+
+.blue {
+  color: #0689BF;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+.text-lowercase {
+  text-transform: lowercase;
+}
+
+@-webkit-keyframes elastic {
+  0%, 100% {
+    letter-spacing: -1.5rem;
+  }
+  50% {
+    letter-spacing: -0.5rem;
+  }
+}
+
+@keyframes elastic {
+  0%, 100% {
+    letter-spacing: -1.5rem;
+  }
+  50% {
+    letter-spacing: -0.5rem;
+  }
+}
