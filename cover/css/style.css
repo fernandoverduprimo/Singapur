@@ -17,33 +17,11 @@ body {
   height: 100%;
 }
 
-svg {
-  width: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-}
 
-.progress {
-  position: absolute;
-  top: 2rem;
-  z-index: 2;
-  display: none;
-}
 
-.slider {
-  width: 80%;
-  -webkit-appearance: none;
-  appearance:none;
-  -moz-appearance:none;
-  position: absolute;
-  top: 5rem;
-  z-index: 2;
-  display: none;
-}
-.slider:focus {
-  outline: none;
-}
+
+
+
 .slider::-webkit-slider-runnable-track {
   width: 100%;
   height: .55rem;
@@ -52,19 +30,7 @@ svg {
   border-radius: 1.3px;
   border: 0.2px solid #010101;
 }
-.slider::-webkit-slider-thumb {
-  box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
-  border: 1px solid #000000;
-  height: 2rem;
-  width: 16px;
-  border-radius: 3px;
-  background: #ffffff;
-  cursor: pointer;
-  -webkit-appearance: none;
-  appearance:none;
-  -moz-appearance:none;
-  margin-top: -14px;
-}
+
 
 body {
   height:100%;
