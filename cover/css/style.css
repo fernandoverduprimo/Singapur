@@ -32,10 +32,7 @@ body {
 }
 
 
-body {
-  height:100%;
-  width: 100%;
-}
+
 
 #parallax {
   background-image:inherit;
@@ -72,13 +69,13 @@ header {
 
 #title{
   color:white;
-  background:inherit;
+  
   mix-blend-mode:none;
   animation-name: title;
   animation-duration: 3s;
   animation-fill-mode:both;
   z-index:-2;
-  background-color: inherit;
+  
   
 }
 
