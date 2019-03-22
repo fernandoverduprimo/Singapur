@@ -107,7 +107,7 @@ footer{
   z-index:1;
  padding-top: 0.3em;
   text-align:center;
-  
+  background:transparent;
   position:fixed;
   left:0px;
   top:0px;
