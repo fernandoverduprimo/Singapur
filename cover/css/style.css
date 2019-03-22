@@ -8,7 +8,7 @@ body {
 }
 
 .container {
-  background-color: inherit;
+  background-color: transparent;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -35,8 +35,8 @@ body {
 
 
 #parallax {
-  background-image:inherit;
-  mix-blend-mode: difference;
+  background-image:none;
+  mix-blend-mode: none;
 }
 
 header {
@@ -55,7 +55,7 @@ header {
      padding: 15px;
      animation-name: opening;
      animation-duration: 7s;
-     background-color: inherit;
+     background-color: transparent;
      }
 
 #nav a {
