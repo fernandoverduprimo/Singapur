@@ -34,6 +34,8 @@ svg {
 .slider {
   width: 80%;
   -webkit-appearance: none;
+  appearance:none;
+  -moz-appearance:none;
   position: absolute;
   top: 5rem;
   z-index: 2;
@@ -59,6 +61,8 @@ svg {
   background: #ffffff;
   cursor: pointer;
   -webkit-appearance: none;
+  appearance:none;
+  -moz-appearance:none;
   margin-top: -14px;
 }
 
@@ -101,8 +105,9 @@ header {
 
 
 #title{
+  color:white;
   background:inherit;
-  mix-blend-mode:multiply;
+  mix-blend-mode:none;
   animation-name: title;
   animation-duration: 3s;
   animation-fill-mode:both;
@@ -157,7 +162,7 @@ footer{
   z-index:1;
  padding-bottom: 0.3em;
   text-align:center;
-  mix-blend-mode:difference;
+  mix-blend-mode:none;
   position:fixed;
   left:0px;
   bottom:0px;
