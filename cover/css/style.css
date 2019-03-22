@@ -69,7 +69,7 @@ header {
 
 #title{
   color:white;
-  
+  background-color:transparent;
   mix-blend-mode:none;
   animation-name: title;
   animation-duration: 3s;
@@ -107,7 +107,7 @@ footer{
   z-index:1;
  padding-top: 0.3em;
   text-align:center;
-  background:transparent;
+  background-color:transparent;
   position:fixed;
   left:0px;
   top:0px;
@@ -136,5 +136,5 @@ footer{
   line-height: 26px;
   font-weight: 300;
   color:whitesmoke;
-
+  background-color:transparent;
 }
